@@ -14,7 +14,7 @@ const Mobile = () => {
     }, [])
     
     const getProducts = async () => {
-        let result = await fetch('http://localhost:8000/mobileData')
+        let result = await fetch('https://xyz-rqcm.onrender.com/mobileData')
         result = await result.json()
         setMobileData(result)
     }
