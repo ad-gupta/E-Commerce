@@ -12,7 +12,7 @@ const MainComp = () => {
   }, []);
 
   const getProducts = async () => {
-    const prod = await fetch("https://xyz-rqcm.onrender.com/slideProducts");
+    const prod = await fetch("https://ecommerce12345.onrender.com/slideProducts");
     const result = await prod.json();
     setDealProduct(result);
   };

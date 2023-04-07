@@ -29,7 +29,7 @@ const CartBody = ({cart, setCart}) => {
       }
     
       const updateCart = async (x) => {
-        let result = await fetch(`https://xyz-rqcm.onrender.com/cart/${x}`, {
+        let result = await fetch(`https://ecommerce12345.onrender.com/cart/${x}`, {
           method: "PUT",
           body: JSON.stringify(cart),
           headers: {

@@ -14,7 +14,7 @@ const Mobile = () => {
     }, [])
     
     const getProducts = async () => {
-        let result = await fetch('https://xyz-rqcm.onrender.com/mobileData')
+        let result = await fetch('https://ecommerce12345.onrender.com/mobileData')
         result = await result.json()
         setMobileData(result)
     }

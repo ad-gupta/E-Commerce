@@ -14,7 +14,7 @@ const Navbar = () => {
   })
 
   const getCart = async () => {
-    let result = await fetch('https://xyz-rqcm.onrender.com/cart');
+    let result = await fetch('https://ecommerce12345.onrender.com/cart');
     result = await result.json()
     setcartItemCount(result.length)
   }

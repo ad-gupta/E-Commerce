@@ -24,7 +24,7 @@ const Cart = () => {
   }, []);
 
   const getCart = async () => {
-    let result = await fetch("https://xyz-rqcm.onrender.com/cart");
+    let result = await fetch("/cart");
     result = await result.json();
     setCartItems(result);
   };

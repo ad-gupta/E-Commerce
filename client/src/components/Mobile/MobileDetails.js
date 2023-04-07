@@ -32,7 +32,7 @@ const MobileDetails = () => {
   }, []);
 
   const getProduct = async () => {
-    let result = await fetch(`https://xyz-rqcm.onrender.com/mobileData/${id}`);
+    let result = await fetch(`https://ecommerce12345.onrender.com/mobileData/${id}`);
     result = await result.json();
 
     setID(result[0]._id);
@@ -50,7 +50,7 @@ const MobileDetails = () => {
   const item = {ID, name, price, brand, NSP, MemoryStorage, ScreenSize, imag, qty:1, priceNum};
 
   const handleAddToCart = async () => {
-    let result = fetch("https://xyz-rqcm.onrender.com/cart", {
+    let result = fetch("https://ecommerce12345.onrender.com/cart", {
       method: "POST",
       body: JSON.stringify(item),
       headers: {
