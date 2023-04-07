@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.newnav{
+    background-color: rgb(35, 38, 62);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+    width: 100vw;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+.lefty{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.links{
+    color: white;
+    padding:10px 0;
+
+}
+
+ul li :hover{
+    border: 1px solid white;
+}
+
+.all{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding:6px 0;
+}
+

@@ -1,0 +1,133 @@
+.allCart{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.184);
+    padding: 10px;
+}
+
+.cartbody{
+    width: 80%;
+    padding-right: 30px;
+}
+
+.cartHead{
+    margin-left: 30px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.body{
+    width: 60%;
+}
+
+.proceedtobuy{
+    width: 200px;
+    background-image: linear-gradient(rgb(246, 234, 127), rgb(178, 117, 4));
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid rgb(232, 161, 29);
+    
+}
+
+.giftbox{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.checkout{
+    background-color: white;
+    width: 30%;
+    margin-left: -28px;
+    height: 70vh;
+    padding-left: 5vw;
+    padding-top: 10vh;
+}
+
+.nameprice{
+    display: flex;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 2px;
+    padding: 20px;
+}
+
+.mainpic{
+    width: 12vw;
+    height: 30vh;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.fulfil{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(22, 7, 74);
+    color: rgba(255, 255, 0, 0.632);
+    border-radius: 5px;
+
+}
+
+.incdec{
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgba(27, 37, 113, 0.459);
+    border-radius: 5px;
+}
+
+.dec, .inc{
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0.534);
+    border: none;
+    height: 20px;
+    color: white;
+}
+
+.del{
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    color: blue;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.save{
+    margin-left: 20px;
+    color: blue;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.xyz{
+    display: flex;
+    align-items: center;
+}
+
+.disp{
+    display: flex;
+    align-items: center;
+    width: 19vw;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.subtotal{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.itemName{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.detail{
+    color: green;
+    text-decoration:underline;
+}

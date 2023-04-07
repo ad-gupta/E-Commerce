@@ -1,0 +1,48 @@
+.amazonLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid orange;
+    gap: 5px;
+    padding: 20px;
+}
+
+.inputbox{
+    width: 200px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid orange;
+    margin-bottom: 20px;
+}
+
+.registerBtn{
+    width: 200px;
+    background-image: linear-gradient(rgb(246, 234, 127), rgb(178, 117, 4));
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid rgb(232, 161, 29);
+    
+}
+
+.signInbtn{
+    width: 200px;
+    background-image: linear-gradient(rgb(246, 234, 127), rgb(178, 117, 4));
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid rgb(232, 161, 29);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px ;
+}

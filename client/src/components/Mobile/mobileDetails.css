@@ -1,0 +1,76 @@
+.carousel-mobile{
+    width: 35vw;
+    position: fixed;
+    margin: 40px 20px;
+    box-shadow: 4px 0px 10px rgba(14, 14, 14, 0.25);
+}
+
+.image-mobile{
+    margin-top: 20px;
+    width: 35vw;
+    height: 80vh;
+    padding: 40px;
+}
+
+.mobilebody{
+    display: flex;
+    align-items: center; 
+    /* background-color: rgb(250, 111, 5); */
+}
+
+.detailBox{
+    width: 35vw;
+    margin-left: 50px;
+}
+
+.detailIcons{
+    display: flex;
+    align-items: center;
+}
+
+.det1{
+    margin-right: 15px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.det2{
+    padding-top: 20px;
+}
+
+.det2 p{
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 4px rgba(14, 14, 14, 0.05);
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cartbtn{
+    width: 150px;
+    background-image: linear-gradient(rgb(246, 234, 127), rgb(178, 117, 4));
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(232, 161, 29, 0.25);
+}
+
+.amtDetails{
+    margin-left: 50px;
+    border: 1.5px solid rgb(7, 58, 11);
+    border-radius: 10px;
+    width: 20vw;
+    height: 70vh;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.amtDetails p{
+    margin-bottom: 10px
+}
